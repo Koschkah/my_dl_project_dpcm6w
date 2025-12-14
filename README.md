@@ -8,6 +8,7 @@
 
 This project implements a Docker-based machine learning pipeline for predicting public transport vehicle delay at the final stop of a trip. Several baseline models (mean, current delay, and linear regression) are used, alongside a GraphSAGE-based Graph Neural Network that models spatial relationships between transit stops using a stop graph. The models are trained with a time-based data split to prevent temporal leakage. 
 - Due to runtime constraints, the training data size is intentionally reduced while preserving the full pipeline and model structure.
+
  Performance is evaluated using MAE, RMSE, and threshold-based accuracy metrics (60, 120, and 180 seconds). And everything is logged in text file for tracking.
 
 ## Extra Credit Justification
