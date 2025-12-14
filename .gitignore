@@ -10,6 +10,10 @@ training_log.txt
 # IDE fájlok
 .vscode/
 .idea/
-
+.env
 dev.sh
 *.cmd
+*.lnk
+
+*.csv
+*txt
